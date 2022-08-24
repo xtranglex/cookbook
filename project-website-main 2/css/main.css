@@ -1,0 +1,228 @@
+body {
+  background-color: #eddcd1;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+  color: rgb(176, 46, 89);
+  font-family: Courier;
+}
+h2 {
+  text-align: center;
+  color: rgb(176, 46, 89);
+  font-family: Courier;
+}
+
+.navbar-container {
+  color: palevioletred;
+  width: auto;
+  background-color: #fff5ee;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: lighter;
+  letter-spacing: 7px;
+  border-radius: 15px;
+  padding-top: 40px;
+  margin: 10px;
+}
+
+.navbar {
+  font-family: Courier;
+  /* background-color: #eddcd1; */
+  color: palevioletred;
+}
+
+.navbar-brand {
+  text-decoration: underline wavy palevioletred;
+  font-family: "Gloria Hallelujah", cursive;
+}
+
+.nav-item {
+  font-family: Courier;
+  color: palevioletred;
+}
+
+.btn-outline-success {
+  background-color: #eddcd1;
+  color: palevioletred;
+}
+
+.list {
+  color: black;
+  font-family: Courier;
+  font-style: italic;
+}
+
+.paragraph {
+  color: rgb(176, 46, 89);
+  font-family: Courier;
+}
+button,
+input[type="submit"],
+input[type="reset"] {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+img {
+  width: 100%;
+}
+
+h5 {
+  color: white;
+}
+
+.carousel-inner .carousel-item {
+  height: 750px;
+}
+
+.carousel-item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 300px;
+}
+
+.carousel-caption {
+  color: white;
+}
+/* .nav-link {
+  color: white;
+} */
+
+.nav-link.active {
+  color: palevioletred;
+  font-weight: 600;
+}
+
+.navbar-brand {
+  text-decoration-thickness: 2px;
+  color: rgb(176, 46, 89);
+  font-size: 40px;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+  font-size: 1rem;
+  line-height: 2.15;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+}
+.card-registration .select-arrow {
+  top: 13px;
+}
+
+form {
+  color: palevioletred;
+  font-family: Courier;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  color: palevioletred;
+}
+
+.card-home {
+  padding: 6px;
+  margin: 10px;
+}
+.card {
+  padding: 6px;
+  margin: 10px;
+}
+
+.gallery {
+  border: 1px solid #ccc;
+}
+
+.gallery:hover {
+  border: 1px solid black;
+}
+
+.gallery-image {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.description {
+  text-align: center;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.recipe-image {
+  float: left;
+  width: 50%;
+  /* margin-bottom: 100px; */
+}
+
+.recipe-text {
+  float: right;
+  width: 50%;
+  /* margin-bottom: 100px; */
+}
+
+.paragraph-one {
+  color: rgb(176, 46, 89);
+  font-family: Courier;
+  /* text-align: center; */
+}
+
+.recipe-info {
+  margin: 10px;
+  overflow: auto;
+}
+
+.go-top-button {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  border-radius: 50%;
+  z-index: 99;
+  display: none;
+  background-color: rgb(176, 46, 89);
+  color: white;
+}
+
+.go-top-button:hover {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  border-radius: 50%;
+  z-index: 99;
+  display: none;
+  color: rgb(247, 147, 147);
+  box-shadow: 0 5px 15px rgba(145, 92, 182, 0.4);
+}
+
+.btn-outline-success:hover {
+  background-color: rgb(247, 147, 147);
+  box-shadow: 0 5px 15px rgba(145, 92, 182, 0.4);
+}
